@@ -1,0 +1,53 @@
+
+        .letters {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            border: 3px solid black;
+            border-radius: 3px;
+            margin: 10px;
+            padding: 3px;
+            color: black;
+            background-color: orange;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 2em;
+            box-shadow: 4px 4px 4px grey;
+            cursor: url('pumpkin.png'), auto;
+        }
+
+        .board {
+            margin-left: 50px;
+            display: flex;
+            justify-content: left;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .letters:hover {
+            text-shadow: 4px 4px 6px white;
+        }
+
+
+        .blanks {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            border: none;
+            margin: 20px;
+            padding: 5px;
+            color: #006;
+            background-color: white;
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: underline;
+            color: black;
+            display: flex;
+            justify-content: center;
+        }
+
+        .heading {
+            margin-top: 0px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
